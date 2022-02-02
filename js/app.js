@@ -21,6 +21,7 @@ function createList(){
 function resetList(){
   unList.innerHTML = ''
   input.value = ''
+  input.focus()
 }
 
 function removeTask(evt){
